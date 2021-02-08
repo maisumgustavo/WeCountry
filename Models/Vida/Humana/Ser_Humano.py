@@ -4,10 +4,14 @@ class Ser_Humano:
     #Estagio_da_Vida = Estagio_da_Vida
     Cabeca = bool
     Braco_Direito = bool
+    Mao_Direita = bool
     Braco_Esquerdo = bool
+    Mao_Esquerda = bool
     Tronco = bool
     Perna_Direita = bool
+    Pe_Direito = bool
     Perna_Esquerda = bool
+    Pe_Esquerdo = bool
 
     def __init__(self, Cabeca, Braco_Direito, Braco_Esquerdo, Tronco, Perna_Direita, Perna_Esquerda):
         self.Cabeca = Cabeca

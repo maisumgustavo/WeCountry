@@ -1,4 +1,4 @@
-class Entidade:
+class Entidade():
 
     def __init__(self, id):
         self.id = int(input())
@@ -6,5 +6,5 @@ class Entidade:
     def __int__(self):
         return self.id
 
-entidade = Entidade(1)
+entidade = Entidade(id)
 print(entidade.id)
