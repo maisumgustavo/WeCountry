@@ -1,0 +1,2 @@
+class Periodo(object):
+    pass
