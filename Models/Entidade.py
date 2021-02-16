@@ -1,10 +1,6 @@
+import datetime
+
 class Entidade():
+    id = int
+    data_Criacao = datetime
 
-    def __init__(self, id):
-        self.id = int(input())
-
-    def __int__(self):
-        return self.id
-
-entidade = Entidade(id)
-print(entidade.id)

@@ -1,0 +1,2 @@
+class Planta():
+    temFruta = bool
