@@ -21,5 +21,3 @@ class Ser_Humano:
         self.Perna_Direita = Perna_Direita
         self.Perna_Esquerda = Perna_Esquerda
 
-afonso = Ser_Humano(True, True, True, True, True, True)
-print(afonso)

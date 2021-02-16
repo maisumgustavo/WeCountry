@@ -1,4 +1,4 @@
-from ..Entidade import entidade
+
 
 #classe água e suas propriedades
 
