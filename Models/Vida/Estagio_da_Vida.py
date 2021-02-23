@@ -1,7 +1,11 @@
 from .. import Entidade
 
-class Ser_Vivo(Entidade):
+class Estagio_da_Vida(Entidade):
+    def __init__(self, eRacional, fome, sede):
+        self.eRacional = eRacional
+        self.fome = fome
+        self.sede = sede
+
     eRacional = bool
-    estaMorto = bool
     fome = float
     sede = float

@@ -1,7 +1,13 @@
 #classe Ar e suas propriedades
 class Ar:
     #Definição das propriedades do Ar
-    Sabor = bool
-    Cheiro = bool
-    Volume = int
-    Massa = int
+    def __init__(self, sabor, cheiro, volume, massa):
+        self.sabor = sabor
+        self.cheiro = cheiro
+        self.volume = volume
+        self.massa = massa
+
+    sabor = bool
+    cheiro = bool
+    volume = int
+    massa = int

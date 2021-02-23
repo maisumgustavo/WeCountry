@@ -1,4 +1,6 @@
-Nome = str
-Orgao_genital_masculino = bool
-Mamas = bool
-Utero = bool
+class Homem():
+    def __init__(self, nome):
+        self.nome = nome
+
+    nome = str
+

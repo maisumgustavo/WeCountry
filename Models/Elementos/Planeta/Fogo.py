@@ -1,6 +1,11 @@
 #classe Terra e suas propriedades
 class Fogo:
     #Definição das propriedades do Fogo
-    Temperatura = float
-    Combustivel = bool
-    Volume = int
+    def __init__(self, temperatura, combustivel, volume):
+        self.temperatura = temperatura
+        self.combustivel = combustivel
+        self.volume = volume
+
+    temperatura = float
+    combustivel = bool
+    volume = int
