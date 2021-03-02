@@ -1,7 +1,10 @@
-class Ser_Humano:
-    #Espaco = Espaco
-    #Vida = Vida
-    #Estagio_da_Vida = Estagio_da_Vida
+from Models.Entidade import Entidade
+from Models.Comida import Comida
+
+
+class Humano(Entidade, Comida):
+    Id = Entidade.id
+    eComida = Comida.eComida
     Cabeca = bool
     Braco_Direito = bool
     Mao_Direita = bool
@@ -14,10 +17,16 @@ class Ser_Humano:
     Pe_Esquerdo = bool
 
     def __init__(self, Cabeca, Braco_Direito, Braco_Esquerdo, Tronco, Perna_Direita, Perna_Esquerda):
+        super().__init__()
         self.Cabeca = Cabeca
         self.Braco_Direito = Braco_Direito
         self.Braco_Esquerdo = Braco_Esquerdo
         self.Tronco = Tronco
         self.Perna_Direita = Perna_Direita
         self.Perna_Esquerda = Perna_Esquerda
+        self.data_Criacao = Entidade.data_Criacao
 
+Humano = Humano(True, True, True, True, True, True)
+print(Humano.id)
+print(Humano.Data_criacao)
+print(Humano.eComida)
