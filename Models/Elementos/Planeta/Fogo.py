@@ -1,5 +1,8 @@
+from Models.Entidade import Entidade
+
+
 #classe Terra e suas propriedades
-class Fogo:
+class Fogo(Entidade):
     #Definição das propriedades do Fogo
     def __init__(self, temperatura, combustivel, volume):
         self.temperatura = temperatura

@@ -1,7 +1,9 @@
-
+from Models.Entidade import Entidade
+from Models.Elementos.Espaco import Espaco
 #classe água e suas propriedades
 
-class Agua:
+
+class Agua(Entidade, Espaco):
     #Definição das propriedades da água
     def __init__(self, sabor, cheiro, volume):
         self.Sabor = sabor
@@ -10,7 +12,7 @@ class Agua:
 
     Sabor = bool
     Cheiro = bool
-    Volume = int
+    Volume = Espaco
 
 agua = Agua(True, True, 10)
 print(agua.Sabor)

@@ -3,7 +3,7 @@
   <component name="ChangeListManager">
     <list default="true" id="046ee3d7-7ad9-4e73-88ba-66b41411d7f9" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Hello World.py" beforeDir="false" afterPath="$PROJECT_DIR$/Hello World.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Hello World.py" beforeDir="false" afterPath="$PROJECT_DIR$/Hello Mundo.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Models/Comida.py" beforeDir="false" afterPath="$PROJECT_DIR$/Models/Comida.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Models/Elementos/Espaco.py" beforeDir="false" afterPath="$PROJECT_DIR$/Models/Elementos/Espaco.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Models/Elementos/Luz.py" beforeDir="false" afterPath="$PROJECT_DIR$/Models/Elementos/Luz.py" afterDir="false" />
@@ -14,8 +14,8 @@
       <change beforePath="$PROJECT_DIR$/Models/Elementos/Vida.py" beforeDir="false" afterPath="$PROJECT_DIR$/Models/Elementos/Vida.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Models/Entidade.py" beforeDir="false" afterPath="$PROJECT_DIR$/Models/Entidade.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Models/Vida/Animal/Animal.py" beforeDir="false" afterPath="$PROJECT_DIR$/Models/Vida/Animal/Animal.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Models/Vida/Estagio_da_Vida.py" beforeDir="false" afterPath="$PROJECT_DIR$/Models/Vida/Estagio_da_Vida.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Models/Vida/Humano/Homem.py" beforeDir="false" afterPath="$PROJECT_DIR$/Models/Vida/Humano/Homem.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Models/Vida/Humano/Humano.py" beforeDir="false" afterPath="$PROJECT_DIR$/Models/Vida/Humano/Humano.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Models/Vida/Humano/Mulher.py" beforeDir="false" afterPath="$PROJECT_DIR$/Models/Vida/Humano/Mulher.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Models/Vida/Planta/Planta.py" beforeDir="false" afterPath="$PROJECT_DIR$/Models/Vida/Planta/Planta.py" afterDir="false" />
     </list>
@@ -49,7 +49,7 @@
       <recent name="D:\Dev\GitHub\WeCountry\Models\Elementos\Planeta" />
     </key>
   </component>
-  <component name="RunManager" selected="Python.Homem">
+  <component name="RunManager" selected="Python.Comida">
     <configuration name="Agua" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="WeCountry" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -63,6 +63,27 @@
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Models/Elementos/Planeta/Agua.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="Comida" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="WeCountry" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Models" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Models/Comida.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -113,7 +134,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="Luz" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+    <configuration name="Humano" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="WeCountry" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -121,32 +142,11 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Models/Elementos" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Models/Vida/Humano" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Models/Elementos/Luz.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
-      <method v="2" />
-    </configuration>
-    <configuration name="Vida" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
-      <module name="WeCountry" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Models/Elementos" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Models/Elementos/Vida.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Models/Vida/Humano/Humano.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -157,11 +157,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Python.Comida" />
+        <item itemvalue="Python.Humano" />
         <item itemvalue="Python.Homem" />
         <item itemvalue="Python.Entidade" />
         <item itemvalue="Python.Agua" />
-        <item itemvalue="Python.Vida" />
-        <item itemvalue="Python.Luz" />
       </list>
     </recent_temporary>
   </component>
@@ -175,5 +175,16 @@
       <updated>1613428927614</updated>
     </task>
     <servers />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
   </component>
 </project>

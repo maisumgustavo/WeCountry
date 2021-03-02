@@ -1,5 +1,6 @@
 import datetime
 
+
 class Entidade():
 
     def __init__(self):

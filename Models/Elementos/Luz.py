@@ -1,4 +1,7 @@
-class Luz():
+from Models.Entidade import Entidade
+
+
+class Luz(Entidade):
     def __init__(self, radiacao_Infravermelha, raiacao_Ultravioleta, frequencia, temperatura, lumen):
         self.radiacao_Infravermelha = radiacao_Infravermelha
         self.radiacao_Ultravioleta = raiacao_Ultravioleta
