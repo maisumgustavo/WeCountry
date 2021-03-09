@@ -1,11 +1,16 @@
 import datetime
+from dataclasses import dataclass
 
 
+@dataclass
 class Entidade():
+    """
+        Classe de onde tudo se herda.
+        Nela tema identificação e data de criação de todos os objetos.
+    """
+    id: int
+    data_Criacao: datetime
 
-    def __init__(self):
-        self.id = 1
-        self.data_Criacao = datetime.datetime.now()
+entidade = Entidade(1, datetime.datetime.now())
 
-    id = int
-    data_Criacao = datetime
+print(entidade.data_Criacao)

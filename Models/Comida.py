@@ -2,6 +2,10 @@ from Entidade import Entidade
 
 class Comida(Entidade):
     def __init__(self, eComida):
+        """
+            Classe que adiciona a propriedade de comida para os series vivos.
+            Define se algo é comestivel ou não.
+        """
         self.eComida = eComida
         self.id = Entidade.id
         self.data_Criacao = Entidade.data_Criacao

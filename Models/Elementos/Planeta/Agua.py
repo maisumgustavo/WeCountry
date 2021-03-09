@@ -4,7 +4,9 @@ from Models.Elementos.Espaco import Espaco
 
 
 class Agua(Entidade, Espaco):
-    #Definição das propriedades da água
+    """
+        Definição das propriedades da água
+    """
     def __init__(self, sabor, cheiro, volume):
         self.Sabor = sabor
         self.Cheiro = cheiro
