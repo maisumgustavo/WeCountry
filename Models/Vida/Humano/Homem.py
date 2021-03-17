@@ -1,10 +1,8 @@
-import Humano
+#import Humano
+import dataclasses
 
-class Homem(Humano):
-    def __init__(self, nome):
-        self.nome = nome
+class Homem():
+    nome: ''
 
-    nome = str
-
-homem = Homem(str)
-print(homem.Cabeca)
+homem = Homem('Testando')
+print(homem.nome)

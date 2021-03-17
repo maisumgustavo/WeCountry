@@ -1,11 +1,10 @@
 from datetime import datetime
 from Models.Entidade import Entidade
+from dataclasses import dataclass
 
+@dataclass
 class Vida(Entidade):
-    def __init__(self, existeVida):
-        self.existeVita = existeVida
-
-    existeVita = bool
+    existeVita: bool
 
 vida = Vida(True)
 print(vida.existeVita)

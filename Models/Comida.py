@@ -1,13 +1,7 @@
 from Entidade import Entidade
+from dataclasses import dataclass
 
+@dataclass
 class Comida(Entidade):
-    def __init__(self, eComida):
-        self.eComida = eComida
-        self.id = Entidade.id
-        self.data_Criacao = Entidade.data_Criacao
+    eComida: bool
 
-    eComida = bool
-
-comida = Comida(True)
-print(comida.id)
-print(comida.data_Criacao)
