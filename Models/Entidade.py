@@ -1,8 +1,8 @@
-import datetime
-import dataclasses
+from datetime import datetime
+from dataclasses import dataclass
 
-@dataclasses
-class Entidade():
-
+@dataclass
+class Entidade:
+    
     id: int
     data_Criacao: datetime
