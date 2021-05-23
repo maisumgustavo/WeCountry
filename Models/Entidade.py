@@ -1,8 +1,9 @@
 from datetime import datetime
-from dataclasses import dataclass
 
-@dataclass
+
 class Entidade:
-    
-    id: int
-    data_Criacao: datetime
+    def __init__(self):
+        
+        self.id = 1
+        self.data_Criacao = datetime.now()
+

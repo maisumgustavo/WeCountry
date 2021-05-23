@@ -1,8 +1,10 @@
-import Entidade
-import dataclasses
+from Entidade import Entidade
 
-@dataclasses
+
 class Pessoa(Entidade):
-    nome: str
-    sexo: bool
+    def __init__(self, nome, sexo):
+        super().__init__()
+
+        self.nome = nome
+        self.sexo = sexo
     

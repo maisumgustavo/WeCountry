@@ -1,8 +1,11 @@
-import dataclasses
-import Entidade
+from Entidade import Entidade
 
-@dataclasses
+
 class Rua(Entidade):
-    
-    nome: str
-    extensao: int
+    def __init__(self, nome, extensao):
+        super().__init__()
+
+        self.nome = nome
+        self.extensao = extensao
+
+
